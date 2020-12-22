@@ -1,0 +1,1 @@
+insert into posts (posts_id, titulo, imagen, categoria, fecha_creacion) values (1, 'Post número 1', '', 'Tecnología', '2020/12/17');
