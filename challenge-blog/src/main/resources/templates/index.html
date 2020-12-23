@@ -111,9 +111,9 @@
 									<!-- <td><img th:if="${#strings.length(posts.image) > 0}"
 					class="img-thumbnail rounded float-center" style="max-width: 128px; max-height:128px"
 					th:href="@{'/uploads/'} + ${posts.image}}" th:alt="${posts.image}"/> </td> -->
-									<td class="img-thumbnail rounded float-left"
-										style="max-width: 5%;" th:alt="${posts.image}"><img
-										th:src="@{'/uploads/' + ${posts.image}}"></td>
+									<td><img
+										th:src="@{'/uploads/' + ${posts.image}}" class="img-thumbnail rounded float-left"
+										style="max-width: 25%;" th:alt="${posts.image}"></td>
 									<td th:text="${posts.createAt}"></td>
 									<td><a class="btn btn-primary btn-sm"
 										th:href="@{/posts/edit/} + ${posts.postId}" th:text="'edit'"></a></td>
